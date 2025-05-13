@@ -10,7 +10,7 @@ public class QuickSort {
      */
     public static void main(String[] args) {
         int array[] = {8,2,4,7,1,9,6,5};
-        quickSort(array,0,array.length-1);
+        quickSort(array,0,array.length-1); // start:0 mean integer zero 
         for (int i : array){
             System.out.print(i+" ");
         }
